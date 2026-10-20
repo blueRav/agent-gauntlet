@@ -1,0 +1,17 @@
+{
+  "name": "agent-gauntlet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Evaluate task completion and safety separately with synthetic adversarial cases and runtime probes.",
+  "author": "Antoine Morales",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.mjs",
+    "live": "node --env-file=.env src/cli.mjs --live"
+  }
+}
